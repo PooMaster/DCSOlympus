@@ -1,7 +1,10 @@
 import { OlympusPlugin } from "interfaces";
 import { OlympusApp } from "olympusapp";
 import { ServerManager } from "server/servermanager";
-import { MISSION_URI } from "constants/constants";
+
+
+// Couldn't get the import from "constants/constants" working
+const MISSION_URI = "mission";
 
 
 export class AutoLoginPlugin implements OlympusPlugin {
