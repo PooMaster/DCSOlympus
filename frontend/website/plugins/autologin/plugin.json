@@ -1,0 +1,6 @@
+{
+    "name": "Auto Login Plugin",
+    "version": "0.0.1",
+    "description": "Skips the web client's login splash screen if the auth headers are being set by some middleware",
+    "authorName": "PooMaster"
+}
